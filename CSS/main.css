@@ -1,0 +1,16 @@
+html {
+    margin-top: 0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: chartreuse;
+    text-align: center;
+    padding-bottom: 9px;
+}
