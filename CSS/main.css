@@ -1,20 +1,21 @@
-a,p,h1,h2,h3,h4,h5,h6 {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0;
+* {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5;
+  margin: 0;
 }
 
 a {
     text-decoration: none;
     color: black;
-    background-color: rgb(79, 143, 103);
-    padding: 5px;
-    border-radius: 20px;
 }
 
 h1.title {
     padding-top: 10px;
+    user-select: none;
 }
 
 body {
@@ -37,4 +38,16 @@ div {
     border-radius: 15px;
     text-align: center;
     background-color: rgb(100, 180, 131);
+}
+
+.sidemenu {
+  display: none;
+  background-color: rgb(79, 165, 112);
+  border-radius: 0px;
+  border-bottom-right-radius: 20px;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 50%;
 }
